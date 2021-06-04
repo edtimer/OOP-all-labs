@@ -6,10 +6,8 @@ public class Name {
         this.lastName = lastName;
         this.firstName = firstName;
     }
-    public String getFullName(){
-        String fullName;
-        fullName = firstName+" "+lastName;
-        return fullName;
+    public String getName(){
+        return  firstName+" "+lastName;
     }
 
 }

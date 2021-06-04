@@ -1,11 +1,11 @@
 public class Doctor {
     private String staffID;
     private Name name;
-    public Doctor(String firstName,String lastName,String staffID){
+    public Doctor(String staffID,String firstName,String lastName){
         this.staffID = staffID;
         name = new Name(firstName,lastName);
     }
-    public String getFullName(){
-        return name.getFullName();
+    public String getName(){
+        return name.getName();
     }
 }
