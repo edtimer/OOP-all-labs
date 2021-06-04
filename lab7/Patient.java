@@ -10,7 +10,7 @@ public class Patient {
 
     public Patient(String patientID, String firstName, String lastName, String gender, Address address, int age, int h, int w) {
         this.patientID = patientID;
-        Name name = new Name(firstName, lastName);
+        name = new Name(firstName, lastName);
         this.gender = gender;
         this.address = address;
         this.age = age;
