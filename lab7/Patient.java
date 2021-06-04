@@ -16,5 +16,30 @@ public class Patient {
         this.age = age;
         pHealth = new HealthInfo(h, w);
     }
+    public String getPatientID(){
+        return patientID;
+}
+public int getWeight(){
+       return pHealth.getWeight();
+}
+    public int getHeight(){
+        return pHealth.getHeight();
+    }
+    public String getFullName(){
+        return name.getFullName();
+    }
+    public String getGender(){
+        return gender;
+    }
+    public int getAge(){
+        return age;
+    }
+    public Doctor getDoctor(){
+        return doctor;
+    }
+    public void attendBy(Doctor doc){
+        doctor = doc;
+    }
+}
 
 }
